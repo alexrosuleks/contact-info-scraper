@@ -1,0 +1,19 @@
+{
+  "name": "contact-info-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Contact Details Scraper: Extract emails, phone numbers and social media links from any website. Crawl contact pages in bulk for lead generation. Export to JSON, CSV or Excel.",
+  "main": "example.js",
+  "scripts": {
+    "start": "node example.js"
+  },
+  "keywords": [
+    "scraper",
+    "web-scraping",
+    "scrapely"
+  ],
+  "dependencies": {
+    "scrapely-client": "^2.25.15"
+  },
+  "license": "MIT"
+}

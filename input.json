@@ -1,0 +1,21 @@
+{
+  "startUrls": [
+    {
+      "url": "https://kde.org/"
+    }
+  ],
+  "maxRequestsPerStartUrl": 10,
+  "maxDepth": 2,
+  "maxRequests": 100,
+  "sameDomain": true,
+  "mergeContacts": true,
+  "considerChildFrames": true,
+  "useBrowser": false,
+  "waitUntil": "domcontentloaded",
+  "proxyConfiguration": {
+    "useScrapelyProxy": true,
+    "scrapelyProxyGroups": [
+      "DATACENTER"
+    ]
+  }
+}
